@@ -1,0 +1,9 @@
+Few cases yet to be covered:
+
+1) add one plus two
+2) add 1 + three
+3) add 23 + 21
+4) what is 50% of 100
+
+TODO: Write Junit test cases for all possible variations of the sentences
+TODO: Test the app on a faster emulater, still couldn't figure out the reason behind slowness of the buttons
