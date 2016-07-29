@@ -253,7 +253,8 @@ public class MainActivity extends AppCompatActivity {
                     ArrayList<String> result = data
                             .getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
                     String input = result.get(0);
-                    String output = computeValue(input);
+                    //String output = computeValue(input);
+                    String output = SemanticOperatorOperand.getComputedResult(input);
                     txtSpeechInput.setText(input);
                     if(output!=null) {
                         resultText.setText(output);
